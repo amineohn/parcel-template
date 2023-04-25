@@ -1,0 +1,14 @@
+{
+  "name": "fast-reload-nodejs-for-gaetan",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel src/views/index.html",
+    "build": "parcel build src/views/index.html",
+    "clean": "rm -rf dist .parcel-cache"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "parcel": "^2.8.3"
+  }
+}
